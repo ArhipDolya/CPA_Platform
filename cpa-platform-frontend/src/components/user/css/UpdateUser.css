@@ -1,0 +1,64 @@
+.update-user-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #3498db;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.update-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.update-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.update-button:hover {
+  background-color: #2c7bb0;
+}
+
+.success-message {
+  color: #2ecc71;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-top: 10px;
+}

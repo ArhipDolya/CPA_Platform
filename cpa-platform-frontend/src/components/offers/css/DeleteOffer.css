@@ -1,0 +1,27 @@
+.delete-offer-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .success-message {
+    color: #00c853;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  

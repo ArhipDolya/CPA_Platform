@@ -1,0 +1,35 @@
+.delete-user-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #e74c3c;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-top: 10px;
+}
+  

@@ -1,0 +1,52 @@
+/* Replace this CSS with the following */
+
+.offers-list-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offers-list-container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .offers-list-container .error-message {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .offers-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .offers-list-container li {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offers-list-container strong {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .offers-list-container .is-active-yes {
+    color: #00c853; /* Green color for "Yes" */
+  }
+  
+  .offers-list-container .is-active-no {
+    color: #ff0000; /* Red color for "No" */
+  }
+  

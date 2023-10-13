@@ -1,0 +1,39 @@
+.user-list-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #3498db; /* Blue color for the title */
+  }
+  
+  .error-message {
+    color: #e74c3c; /* Red color for error messages */
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-item:hover {
+    background-color: #3498db; /* Blue hover color */
+    color: #fff;
+  }
+  

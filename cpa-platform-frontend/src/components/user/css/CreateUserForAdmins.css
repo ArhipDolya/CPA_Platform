@@ -1,0 +1,60 @@
+.create-admin-account-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.create-admin-account-container h2 {
+  color: #3498db;
+}
+
+.admin-account-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-account-form input[type="text"] {
+  max-width: 100%;
+}
+
+.admin-account-form input[type="number"] {
+  max-width: 100%;
+}
+
+label {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.create-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.success-message {
+  color: #2ecc71;
+}
+
+.error-message {
+  color: #e74c3c;
+}

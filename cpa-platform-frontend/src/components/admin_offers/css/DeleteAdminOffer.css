@@ -1,0 +1,35 @@
+.delete-offer-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+}
+
+.delete-offer-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.error-message {
+  color: #ff5733;
+  font-size: 18px;
+}
+
+success-message {
+  color: #32cd32;
+  font-size: 18px;
+}
+
+.loading-message {
+  font-size: 18px;
+  color: #4287f5;
+}
+  

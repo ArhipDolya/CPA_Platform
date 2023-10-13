@@ -1,0 +1,45 @@
+.get-offer-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+}
+
+.get-offer-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.error-message {
+  color: #ff5733;
+  font-size: 18px;
+}
+
+.loading-message {
+  font-size: 18px;
+  color: #4287f5;
+}
+
+.offer-details {
+  margin-top: 20px;
+}
+
+.offer-details h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.offer-details p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #666;
+}
